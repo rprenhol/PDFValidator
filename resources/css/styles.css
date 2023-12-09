@@ -1,0 +1,12 @@
+.file-dragging-container {
+    border: 5px dashed #ccc0;
+    border-radius: 15px;
+    margin: 20px;
+}
+.file-dragging {
+    border-color: #ccc;
+}
+
+.not-file-dragging {
+    cursor: not-allowed!important;
+}

@@ -33,10 +33,10 @@
   "modes": {
     "window": {
       "title": "ValidadorPDF",
-      "width": 800,
-      "height": 500,
+      "width": 400,
+      "height": 400,
       "minWidth": 400,
-      "minHeight": 200,
+      "minHeight": 400,
       "fullScreen": false,
       "alwaysOnTop": false,
       "icon": "/resources/icons/appIcon.png",

@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>NeutralinoJs sample app</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>LotoApp</title>
   </head>
+
   <body>
-    <div id="neutralinoapp">
-      <h1>NeutralinoJs</h1>
-      <div id="info"></div>
-      <br/>
-      <img src="./icons/logo.gif" alt="Neutralinojs" />
-      <div>
-        <a href="#" onclick="openDocs();">Docs</a> &middot;  
-        <a href="#" onclick="openTutorial();">Tutorial</a>
+    <div class="card text-center position-fixed w-100 h-100">
+      <div class="card-header">
+        Verificar assinatura em um PDF
+      </div>
+      <div class="card-body align-middle file-dragging-container">
+        <div class="container-fluid align-middle ">
+        <h4 class="card-title">Arquivo PDF</h4>
+        <a name="" id="file-dialog" class="btn btn-primary" href="#" role="button">Procurar...</a>
+        <p></p>
+        <p>ou</p>
+        <p class="card-text">Arraste e solte aqui</p>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        <a href="#" target="_self" onclick="javascript:Neutralino.os.open('https://github.com/rprenhol')" class="">@rprenhol</a>
       </div>
     </div>
-    <!-- Neutralino.js client. This file is gitignored, 
-        because `neu update` typically downloads it.
-        Avoid copy-pasting it. 
-        -->
     <script src="js/neutralino.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- Your app's source files -->
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
